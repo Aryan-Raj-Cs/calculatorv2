@@ -1,0 +1,52 @@
+.maincontent{
+   display:flex; 
+  
+   width:100%;
+   height:100%;
+   
+   justify-content:center;
+  
+
+}
+
+.main{
+    
+    background-color: #302d2d; 
+    width:400px;
+    height:480px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+textarea {
+   
+    height: 80px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: transparent;
+    color:white;
+    resize: none;
+    font-size: 40px;
+  }
+
+  textarea:focus, input:focus{
+    outline: none;
+}
+
+button {
+    background-color: #eb6f6f; /* Green */
+    border: none;
+    color:  #302d2d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height:70px;
+    width:96px;
+    margin:4px 2px;
+    cursor: pointer;
+    font-size: 20px;;
+
+  }
